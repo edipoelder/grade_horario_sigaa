@@ -16,7 +16,11 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "109.0"
+      "id": "edipo.melo@ufrn.br",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "privacy_policy_url": "https://github.com/edipoelder/grade_horario_sigaa/blob/main/politica.md"
