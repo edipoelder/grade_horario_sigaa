@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Seletor de Horários SIGAA",
+  "version": "1.1",
+  "description": "Selecione turmas e visualize a grade horária semanal.",
+  "permissions": [
+    "activeTab",
+    "https://sigaa.ufrn.br/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://sigaa.ufrn.br/sigaa/ensino/turma/busca_turma.jsf*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
